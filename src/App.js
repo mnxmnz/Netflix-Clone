@@ -1,24 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Switch } from "react-router-dom";
+import HomePage from "./pages/HomePage";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/* 생각해보니까 디테일페이지가 모달창이라 라우팅이 이것밖에 필요없드라구요??? */}
+    <Switch>
+      <Route component={HomePage} path="/" exact />
+      <Route path='/*'>404 Not Found</Route>
+    </Switch>
+    </>
   );
 }
 
