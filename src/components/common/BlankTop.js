@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const BlankDiv = styled.div`
-    height: 100%;
+    width:100%;
     margin-top: ${props=> props.DesktopMargin || 0}rem;
 
     @media only screen and (max-width: 768px) {

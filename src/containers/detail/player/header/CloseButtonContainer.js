@@ -1,4 +1,4 @@
-import CloseButton from "../../components/detail/CloseButton";
+import CloseButton from "../../../../components/detail/player/header/CloseButton";
 
 
 const CloseButtonContainer = ({closeDetail}) => {
