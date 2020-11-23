@@ -3,6 +3,7 @@ import BlankTop from "../components/common/BlankTop";
 import ExampleComponentContainer from "../containers/home/ExampleComponentContainer";
 import RowContainer from "../containers/home/RowContainer";
 import DetailPage from "./DetailPage";
+import HeaderContainer from "../containers/home/HeaderContainer";
 
 const HomePage = () => {
   // 디테일 페이지 나오게 하는 State
@@ -16,6 +17,7 @@ const HomePage = () => {
   // 클릭했을떄, 해당 아이디 값을 받아서 디테일에서 아이디값 기준으로 정보를 다시 받아오면 될듯
   return (
     <>
+      <HeaderContainer />
       <RowContainer />
       <BlankTop DesktopMargin="4" MobileMargin="3" />
       <ExampleComponentContainer
