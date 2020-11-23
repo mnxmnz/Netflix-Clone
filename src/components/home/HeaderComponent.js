@@ -11,7 +11,6 @@ const HeaderWrap = style.div`
     width: 100vw;
     height: ${headerHeight}px;
     background-color: black;
-    border: 1px solid blue;
 `
 
 const NetflixLogo = style.img`

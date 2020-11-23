@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import BlankTop from '../components/common/BlankTop';
 import ExampleComponentContainer from '../containers/home/ExampleComponentContainer';
 import HeaderContainer from '../containers/home/HeaderContainer';
+import BannerContainer from '../containers/home/BannerContainer';
 import DetailPage from './DetailPage';
 
 const HomePage = () => {
@@ -18,6 +19,7 @@ const HomePage = () => {
     return (
       <>
         <HeaderContainer/>
+        <BannerContainer/>
         <BlankTop DesktopMargin='4' MobileMargin='3'/>
         <ExampleComponentContainer openDetail={openDetail} DesktopWidth='43.1' DesktopHeight='23.8' MobileWidth='27.2' MobileHeight='15' MobileMargin='2.2' DesktopMargin='3'/>
         
