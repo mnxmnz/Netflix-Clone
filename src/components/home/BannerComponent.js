@@ -5,6 +5,7 @@ import netflixLogo from'../../assets/homeheadericon/netflix_logo.png';
 const BannerWrap = style.div`
     width: 100vw;
     position: relative;
+    background-color: black;
 `
 
 const Video = style.iframe`
@@ -37,20 +38,22 @@ const GenreWrap = style.div`
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
-
-    background-color: black;
     width: 100%;
+    &::-webkit-scrollbar {
+        display: none;
+    }
 `
 const GenreBtn = style.div`
     border: 1px solid white;
     border-radius: 50%; 
-    width: 100px;
-    height: 15vw;
+    width: 10vw;
+    height: 10vw;
+    line-height: 10vw;
     text-align: center;
-    line-height: 15vw;
     color: white;
-    font-size: 12px;
+    font-size: 11px;
     flex: 0 0 auto;
+    margin: 2vw;
 `
 
 
