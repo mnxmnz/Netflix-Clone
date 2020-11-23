@@ -19,6 +19,7 @@ const HomePage = () => {
   return (
     <>
       <HeaderContainer />
+      <BannerContainer />
       <RowContainer />
       <BlankTop DesktopMargin="4" MobileMargin="3" />
       <ExampleComponentContainer
