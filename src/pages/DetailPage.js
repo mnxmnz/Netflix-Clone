@@ -11,6 +11,8 @@ import MuteButtonContainer from "../containers/common/MuteButtonContainer";
 import FooterLeftContainer from "../containers/detail/player/footer/FooterLeftContainer";
 import InformationWrap from "../components/detail/information/InformationWrap";
 import InformationContent from "../components/detail/information/InformationContent";
+import BlankTop from "../components/common/BlankTop";
+import MainCombineContainer from "../containers/detail/maincombine/MainCombineContainer";
 
 const DetailPage = ({ closeDetail, maskClosable, visible }) => {
     // 브라우저의 사이즈를 측정하는 State
@@ -40,9 +42,9 @@ const DetailPage = ({ closeDetail, maskClosable, visible }) => {
             <DetailOverlay visible={visible} />
             <DetailWrapperContainer closeDetail={closeDetail} maskClosable={maskClosable} visible={visible}>
                 <DetailInner>
-                    <PlayerWrap DesktopHeight="48" DesktopPadding="3rem 5rem" MobileHeight="45.7" MobilePadding="3rem">
+                    <PlayerWrap DesktopHeight="48" DesktopPadding="3rem 4.8rem" MobileHeight="45.7" MobilePadding="2.3rem">
                         <HeadWrap DesktopPadding="2rem">
-                            <WatchingLevel />
+                            <WatchingLevel Level='3' Size='3.5rem'/>
                             <CloseButtonContainer closeDetail={closeDetail} />
                         </HeadWrap>
                         <FooterWrap>
@@ -50,9 +52,11 @@ const DetailPage = ({ closeDetail, maskClosable, visible }) => {
                             <MuteButtonContainer />
                         </FooterWrap>
                     </PlayerWrap>
-                    <InformationWrap DesktopHeight="48" DesktopPadding="3rem 5rem" MobileHeight="45.7" MobilePadding="3rem">
+                    <InformationWrap DesktopHeight="15" DesktopPadding="0rem 4.8rem" MobileHeight="20.1" MobilePadding="0 2.3rem">
                         <InformationContent />
                     </InformationWrap>
+                    <BlankTop DesktopMargin='6.1' MobileMargin='0'/>
+                    <MainCombineContainer />
                 </DetailInner>
             </DetailWrapperContainer>
         </>

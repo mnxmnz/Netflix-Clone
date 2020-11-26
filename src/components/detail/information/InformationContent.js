@@ -52,9 +52,15 @@ const StyledTitle = styled.div`
 `;
 
 const StyledContent = styled.div`
-    font-size: 17px;
-    margin-top: 20px;
-    line-height: 27px;
+    font-size: 1.8rem;
+    margin-top: 1.2rem;
+    line-height: 2.7rem;
+    @media screen and (max-width: 768px) {
+        font-size:1.4rem;
+        line-height:2.05rem;
+        margin-top: 0.9rem;
+
+    }
 `;
 
 const MobileFooter = styled.div`
@@ -76,8 +82,14 @@ const MobileFooter = styled.div`
 `;
 
 const StyledSeriesContent = styled.div`
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 16px;
+    @media screen and (max-width: 768px) {
+        font-size:1.1rem;
+        line-height:1.6rem;
+        margin-top: 0.9rem;
+
+    }
 `;
 
 export default InformationContent;

@@ -6,7 +6,7 @@ const { default: PlayButton } = require("../../../common/PlayButton")
 const { default: FooterLeftBottom } = require("./FooterLeftBottom")
 
 const StyledFooterLeft = styled.div`
-    margin : 0 2rem;
+    
 `
 
 const FooterLeft = ({windowWidth}) => {
