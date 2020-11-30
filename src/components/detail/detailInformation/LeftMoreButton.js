@@ -1,16 +1,10 @@
-import React, { useRef } from "react";
+import React from "react";
 import styled from "styled-components";
 import { ReactComponent as LeftMore } from "../../../assets/detailinformation/btn_leftmore.svg";
 
 const LeftMoreButton = () => {
-    const ref = useRef(null);
-
-    const scroll = (scrollOffset) => {
-        ref.current.scrollLeft += scrollOffset;
-    };
-
     return (
-        <StyledLeftMoreButton onClick={() => scroll(-20)}>
+        <StyledLeftMoreButton>
             <LeftMore />
         </StyledLeftMoreButton>
     );

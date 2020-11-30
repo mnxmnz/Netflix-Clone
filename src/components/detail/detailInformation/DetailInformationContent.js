@@ -39,7 +39,7 @@ const StyledInformationProfile = styled.div`
 
     &:hover {
         background-color: #777777;
-        
+
         & > div {
             display: block;
             font-weight: bold;
@@ -58,9 +58,11 @@ const StyledInformationProfile = styled.div`
 
 const StyledProfileContent = styled.div`
     color: white;
-    position: absolute;
     top: 60.48%;
     padding: 3%;
+    width: 100px;
+    height: 65px;
+    position: absolute;
 
     & > p:nth-child(1) {
         font-weight: normal;
