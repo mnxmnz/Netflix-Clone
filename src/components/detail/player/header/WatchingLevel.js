@@ -6,11 +6,39 @@ import {ReactComponent as Null}  from '../../../../assets/watchinglevel/ic_null.
 import {ReactComponent as Twelve}  from '../../../../assets/watchinglevel/ic_twelve.svg'
 
 
-const WatchingLevel = (props) => {
-    return <div style={{width:'4rem', height:'4rem',}}>
-            <All style={{width:'100%', height:'100%'}}/> 
+const WatchingLevel = ({Level, Size}) => {
+    if(Level==='0'){
+        return(
+            <div style={{width:Size, height:Size}}>
+                <All style={{width:'100%', height:'100%'}}/> 
+            </div> 
+        )    
+    }else if(Level==='1'){
+        return(
+            <div style={{width:Size, height:Size}}>
+                <Twelve style={{width:'100%', height:'100%'}}/> 
+            </div> 
+        )     
+    }else if(Level==='2'){
+        return(
+            <div style={{width:Size, height:Size}}>
+                <Fifteen style={{width:'100%', height:'100%'}}/> 
+            </div> 
+        )     
+    }else if(Level==='3'){
+        return(
+            <div style={{width:Size, height:Size}}>
+                <Nineteen style={{width:'100%', height:'100%'}}/> 
+            </div> 
+        )     
+    }else {
+        return(
+            <div style={{width:Size, height:Size}}>
+                <Null style={{width:'100%', height:'100%'}}/> 
+            </div> 
+        )     
+    }
 
-    </div>
 }
 
 export default WatchingLevel;
