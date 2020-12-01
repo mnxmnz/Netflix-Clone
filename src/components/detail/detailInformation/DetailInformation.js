@@ -39,6 +39,12 @@ const DetailInformation = () => {
 
 const StyledButtonWrap = styled.div`
     position: relative;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: 100%;
+    &::-webkit-scrollbar {
+        display: none;
+    }
 `;
 
 const StyledContentWrap = styled.div`

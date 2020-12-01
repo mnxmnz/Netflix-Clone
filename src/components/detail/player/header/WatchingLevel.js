@@ -1,4 +1,3 @@
-import styled from 'styled-components';
 import {ReactComponent as All}  from '../../../../assets/watchinglevel/ic_all.svg'
 import {ReactComponent as Fifteen}  from '../../../../assets/watchinglevel/ic_fifteen.svg'
 import {ReactComponent as Nineteen}  from '../../../../assets/watchinglevel/ic_nineteen.svg'

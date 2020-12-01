@@ -40,26 +40,26 @@ const Icon = styled.img`
   left: ${(props) => props.left}px;
   right: ${(props) => props.right}px;
   overflow: visible;
-  z-index: 1000;
+  z-index: 100;
 `;
 
-const RowComponent = ({ title, width, height }) => {
+const RowComponent = ({ title, width, height, openDetail }) => {
   return (
     <Wrap>
       <StyledTitle>Netflix 인기 콘텐츠</StyledTitle>
       <StyledRow>
-        <StyledBox width="272" height="150" position="relative">
+        <StyledBox onClick={openDetail} width="272" height="150" position="relative">
           <Icon src={top10Icon} position="absolute" top="-7" right="-7" />
         </StyledBox>
-        <StyledBox width="272" height="150" position="relative">
+        <StyledBox onClick={openDetail} width="272" height="150" position="relative">
           <Icon src={netflixSymbol} position="absolute" top="12" left="12" />
         </StyledBox>
-        <StyledBox width="272" height="150" />
-        <StyledBox width="272" height="150" />
-        <StyledBox width="272" height="150" />
-        <StyledBox width="272" height="150" />
-        <StyledBox width="272" height="150" />
-        <StyledBox width="272" height="150" />
+        <StyledBox onClick={openDetail} width="272" height="150" />
+        <StyledBox onClick={openDetail} width="272" height="150" />
+        <StyledBox onClick={openDetail} width="272" height="150" />
+        <StyledBox onClick={openDetail} width="272" height="150" />
+        <StyledBox onClick={openDetail} width="272" height="150" />
+        <StyledBox onClick={openDetail} width="272" height="150" />
       </StyledRow>
 
       <StyledTitle>지금 뜨는 콘텐츠</StyledTitle>

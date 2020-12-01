@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import BlankTop from "../components/common/BlankTop";
-import ExampleComponentContainer from "../containers/home/ExampleComponentContainer";
 import RowContainer from "../containers/home/RowContainer";
 import HeaderContainer from "../containers/home/HeaderContainer";
 import BannerContainer from "../containers/home/BannerContainer";
@@ -20,17 +19,8 @@ const HomePage = () => {
     <>
       <HeaderContainer />
       <BannerContainer />
-      <RowContainer />
+      <RowContainer openDetail={openDetail}/>
       <BlankTop DesktopMargin="4" MobileMargin="3" />
-      <ExampleComponentContainer
-        openDetail={openDetail}
-        DesktopWidth="43.1"
-        DesktopHeight="23.8"
-        MobileWidth="27.2"
-        MobileHeight="15"
-        MobileMargin="2.2"
-        DesktopMargin="3"
-      />
       {/* 요기 밑은 Detail 페이지를 뜨게 하는 곳! 나랑 민지꺼! 재성이형님이랑 승미는 이 위쪽으로 작업해주세요 */}
       {detailVisible && (
         <DetailPage
