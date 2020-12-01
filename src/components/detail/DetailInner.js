@@ -18,7 +18,6 @@ const ModalInner = styled.div`
 
 const DetailInner = ({children}) => {
     return   <ModalInner tabIndex="0"> {children} </ModalInner>
-
 }
 
 export default DetailInner;
