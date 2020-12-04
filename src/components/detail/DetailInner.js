@@ -8,7 +8,7 @@ const ModalInner = styled.div`
     max-width: 85rem;
     min-width: 64.8rem;
     margin: 7.2rem auto;
-    height:12313px;
+    min-height:100%;
     outline:0;
     overflow:hidden;
     @media only screen and (max-width: 880px) {
@@ -18,7 +18,6 @@ const ModalInner = styled.div`
 
 const DetailInner = ({children}) => {
     return   <ModalInner tabIndex="0"> {children} </ModalInner>
-
 }
 
 export default DetailInner;
