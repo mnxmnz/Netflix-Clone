@@ -56,7 +56,7 @@ const DetailPage = ({ closeDetail, maskClosable, visible }) => {
                         <InformationContent />
                     </InformationWrap>
                     <BlankTop DesktopMargin='6.1' MobileMargin='0'/>
-                    <MainCombineContainer />
+                    <MainCombineContainer windowWidth={windowWidth}/>
                 </DetailInner>
             </DetailWrapperContainer>
         </>

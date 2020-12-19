@@ -6,6 +6,9 @@ const StyledRate = styled.span`
     font-size: 1.4rem;
     line-height: 1.6rem;
     color: #01CD68;
+    @media only screen and (max-width: 768px) {
+      font-size: 1.2rem;
+  }
 `
 
 const MatchRate = ({MatchRateNumber}) => {
