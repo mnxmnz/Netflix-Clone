@@ -45,7 +45,7 @@ const Summary = styled.p`
     line-height: 125%;
     color: #D2D2D2;
 `
-const DesktopRecommentCard = () => {
+const DesktopRecommendCard = () => {
     return(
         <>
         <CardWrap>
@@ -72,4 +72,4 @@ const DesktopRecommentCard = () => {
     )
 }
 
-export default DesktopRecommentCard;
+export default DesktopRecommendCard;
