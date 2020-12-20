@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import top10Icon from "../../assets/homerowicon/img_top10_tablet.png";
-import netflixSymbol from "../../assets/homerowicon/ic_netflix_symbol_tablet.png";
+import top10Icon from "../../assets/homerowicon/img_top10.svg";
+import netflixSymbol from "../../assets/homerowicon/ic_netflix_symbol.svg";
 
 // background black으로 수정
 const Wrap = styled.div`
@@ -10,7 +10,6 @@ const Wrap = styled.div`
 // font-family, rem으로 수정
 const StyledTitle = styled.h2`
   margin-left: 25px;
-  margin-bottom: 11px;
   font-weight: 700;
   font-size: 20px;
   color: #ffffff;
@@ -27,6 +26,7 @@ const StyledBox = styled.div`
   width: ${(props) => props.width}px;
   height: ${(props) => props.height}px;
   position: ${(props) => props.position};
+  margin-top: 11px;
   margin-right: 16px;
   margin-bottom: 31px;
   background: #838383;
@@ -35,6 +35,8 @@ const StyledBox = styled.div`
 
 const Icon = styled.img`
   display: block;
+  width: ${(props) => props.width}px;
+  height: ${(props) => props.height}px;
   position: ${(props) => props.position};
   top: ${(props) => props.top}px;
   left: ${(props) => props.left}px;
@@ -48,11 +50,35 @@ const RowComponent = ({ title, width, height, openDetail }) => {
     <Wrap>
       <StyledTitle>Netflix 인기 콘텐츠</StyledTitle>
       <StyledRow>
-        <StyledBox onClick={openDetail} width="272" height="150" position="relative">
-          <Icon src={top10Icon} position="absolute" top="-7" right="-7" />
+        <StyledBox
+          onClick={openDetail}
+          width="272"
+          height="150"
+          position="relative"
+        >
+          <Icon
+            src={top10Icon}
+            position="absolute"
+            width="96"
+            height="96"
+            top="-7"
+            right="-7"
+          />
         </StyledBox>
-        <StyledBox onClick={openDetail} width="272" height="150" position="relative">
-          <Icon src={netflixSymbol} position="absolute" top="12" left="12" />
+        <StyledBox
+          onClick={openDetail}
+          width="272"
+          height="150"
+          position="relative"
+        >
+          <Icon
+            src={netflixSymbol}
+            position="absolute"
+            width="14"
+            height="25"
+            top="12"
+            left="12"
+          />
         </StyledBox>
         <StyledBox onClick={openDetail} width="272" height="150" />
         <StyledBox onClick={openDetail} width="272" height="150" />
@@ -65,11 +91,26 @@ const RowComponent = ({ title, width, height, openDetail }) => {
       <StyledTitle>지금 뜨는 콘텐츠</StyledTitle>
       <StyledRow>
         <StyledBox width="200" height="111" position="relative">
-          <Icon src={netflixSymbol} position="absolute" top="12" left="12" />
+          <Icon
+            src={netflixSymbol}
+            position="absolute"
+            width="14"
+            height="25"
+            top="12"
+            left="12"
+          />
         </StyledBox>
         <StyledBox width="200" height="111" position="relative">
-          <Icon src={netflixSymbol} position="absolute" top="12" left="12" />
+          <Icon
+            src={netflixSymbol}
+            position="absolute"
+            width="14"
+            height="25"
+            top="12"
+            left="12"
+          />
         </StyledBox>
+        <StyledBox width="200" height="111" />
         <StyledBox width="200" height="111" />
         <StyledBox width="200" height="111" />
         <StyledBox width="200" height="111" />
@@ -80,6 +121,7 @@ const RowComponent = ({ title, width, height, openDetail }) => {
 
       <StyledTitle>일본 영화 & TV프로그램</StyledTitle>
       <StyledRow>
+        <StyledBox width="200" height="111" />
         <StyledBox width="200" height="111" />
         <StyledBox width="200" height="111" />
         <StyledBox width="200" height="111" />
@@ -100,6 +142,7 @@ const RowComponent = ({ title, width, height, openDetail }) => {
         <StyledBox width="200" height="360" />
         <StyledBox width="200" height="360" />
         <StyledBox width="200" height="360" />
+        <StyledBox width="200" height="360" />
       </StyledRow>
 
       <StyledTitle>오늘 한국의 TOP10 TV프로그램</StyledTitle>
@@ -112,10 +155,12 @@ const RowComponent = ({ title, width, height, openDetail }) => {
         <StyledBox width="200" height="111" />
         <StyledBox width="200" height="111" />
         <StyledBox width="200" height="111" />
+        <StyledBox width="200" height="111" />
       </StyledRow>
 
       <StyledTitle>한국 TV 프로그램&로맨틱</StyledTitle>
       <StyledRow>
+        <StyledBox width="200" height="111" />
         <StyledBox width="200" height="111" />
         <StyledBox width="200" height="111" />
         <StyledBox width="200" height="111" />
