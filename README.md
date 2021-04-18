@@ -41,20 +41,15 @@ src
  ┣ assets
  ┃ ┣ detailheadericon
  ┃ ┃ ┣ btn_sqcheck_pressed.svg
- ┃ ┃ ┣ btn_sqcheck_unpressed.svg
- ┃ ┃ ┣ btn_sqtd_pressed.svg
- ┃ ┃ ┣ btn_sqtd_unpressed.svg
- ┃ ┃ ┣ btn_sqtu_pressed.svg
+ ┃ ┃ ┣ ...
  ┃ ┃ ┗ btn_sqtu_unpressed.svg
  ┃ ┣ detailinformation
  ┃ ┃ ┣ btn_leftmore.svg
- ┃ ┃ ┣ btn_rightmore.svg
- ┃ ┃ ┣ ic_netflix_symbol_tablet.svg
+ ┃ ┃ ┣ ...
  ┃ ┃ ┗ maturity_graph.svg
  ┃ ┣ homeheadericon
  ┃ ┃ ┣ btn_gift.png
- ┃ ┃ ┣ btn_kids.png
- ┃ ┃ ┣ btn_noti.png
+ ┃ ┃ ┣ ...
  ┃ ┃ ┗ netflix_logo.png
  ┃ ┣ homemenuicon
  ┃ ┃ ┗ ic_search.png
@@ -69,9 +64,7 @@ src
  ┃ ┃ ┗ seasonPlayButton.svg
  ┃ ┣ watchinglevel
  ┃ ┃ ┣ ic_all.svg
- ┃ ┃ ┣ ic_fifteen.svg
- ┃ ┃ ┣ ic_nineteen.svg
- ┃ ┃ ┣ ic_null.svg
+ ┃ ┃ ┣ ...
  ┃ ┃ ┗ ic_twelve.svg
  ┃ ┣ closebutton.svg
  ┃ ┣ download.svg
@@ -79,11 +72,7 @@ src
  ┣ components
  ┃ ┣ common
  ┃ ┃ ┣ BlankTop.js
- ┃ ┃ ┣ DownLoadButton.js
- ┃ ┃ ┣ MatchRate.js
- ┃ ┃ ┣ MuteButton.js
- ┃ ┃ ┣ PlayButton.js
- ┃ ┃ ┣ SeasonPlayButton.js
+ ┃ ┃ ┣ ...
  ┃ ┃ ┗ Tttle.js
  ┃ ┣ detail
  ┃ ┃ ┣ detailInformation
@@ -91,8 +80,7 @@ src
  ┃ ┃ ┃ ┃ ┣ FooterInner.js
  ┃ ┃ ┃ ┃ ┗ FooterLeft.js
  ┃ ┃ ┃ ┣ DetailInformation.js
- ┃ ┃ ┃ ┣ DetailInformationContent.js
- ┃ ┃ ┃ ┣ LeftMoreButton.js
+ ┃ ┃ ┃ ┣ ...
  ┃ ┃ ┃ ┗ RightMoreButton.js
  ┃ ┃ ┣ information
  ┃ ┃ ┃ ┣ InformationContent.js
@@ -100,8 +88,7 @@ src
  ┃ ┃ ┣ maincombine
  ┃ ┃ ┃ ┣ recommend
  ┃ ┃ ┃ ┃ ┣ DesktopRecommendCard.js
- ┃ ┃ ┃ ┃ ┣ MobileRecommendCard.js
- ┃ ┃ ┃ ┃ ┣ MobileRecommendCombine.js
+ ┃ ┃ ┃ ┃ ┣ ...
  ┃ ┃ ┃ ┃ ┗ RecommendCombine.js
  ┃ ┃ ┃ ┣ season
  ┃ ┃ ┃ ┃ ┣ header
@@ -109,10 +96,7 @@ src
  ┃ ┃ ┃ ┃ ┃ ┣ SeasonHeaderWrap.js
  ┃ ┃ ┃ ┃ ┃ ┗ SeasonNav.js
  ┃ ┃ ┃ ┃ ┣ DesktopPlayerCard.js
- ┃ ┃ ┃ ┃ ┣ MobilePlayerCard.js
- ┃ ┃ ┃ ┃ ┣ MobileSeasonCombine.js
- ┃ ┃ ┃ ┃ ┣ SeasonCombine.js
- ┃ ┃ ┃ ┃ ┣ SeasonInner.js
+ ┃ ┃ ┃ ┃ ┣ ...
  ┃ ┃ ┃ ┃ ┗ SeasonWrap.js
  ┃ ┃ ┃ ┣ MainCombine.js
  ┃ ┃ ┃ ┣ MobileMainNav.js
@@ -120,10 +104,7 @@ src
  ┃ ┃ ┣ player
  ┃ ┃ ┃ ┣ footer
  ┃ ┃ ┃ ┃ ┣ FooterCheckBoxDown.js
- ┃ ┃ ┃ ┃ ┣ FooterCheckBoxPlus.js
- ┃ ┃ ┃ ┃ ┣ FooterCheckBoxUp.js
- ┃ ┃ ┃ ┃ ┣ FooterLeft.js
- ┃ ┃ ┃ ┃ ┣ FooterLeftBottom.js
+ ┃ ┃ ┃ ┃ ┣ ...
  ┃ ┃ ┃ ┃ ┗ FooterWrap.js
  ┃ ┃ ┃ ┣ header
  ┃ ┃ ┃ ┃ ┣ CloseButton.js
@@ -135,8 +116,7 @@ src
  ┃ ┃ ┗ DetailWrapper.js
  ┃ ┗ home
  ┃ ┃ ┣ BannerComponent.js
- ┃ ┃ ┣ ExampleComponent.js
- ┃ ┃ ┣ HeaderComponent.js
+ ┃ ┃ ┣ ...
  ┃ ┃ ┗ RowComponent.js
  ┣ containers
  ┃ ┣ common
@@ -151,16 +131,14 @@ src
  ┃ ┃ ┣ player
  ┃ ┃ ┃ ┣ footer
  ┃ ┃ ┃ ┃ ┣ DownContainer.js
- ┃ ┃ ┃ ┃ ┣ FooterLeftContainer.js
- ┃ ┃ ┃ ┃ ┣ PlusContainer.js
+ ┃ ┃ ┃ ┃ ┣ ...
  ┃ ┃ ┃ ┃ ┗ UpContainer.js
  ┃ ┃ ┃ ┗ header
  ┃ ┃ ┃ ┃ ┗ CloseButtonContainer.js
  ┃ ┃ ┗ DetailWrapperContainer.js
  ┃ ┗ home
  ┃ ┃ ┣ BannerContainer.js
- ┃ ┃ ┣ ExampleComponentContainer.js
- ┃ ┃ ┣ HeaderContainer.js
+ ┃ ┃ ┣ ...
  ┃ ┃ ┗ RowContainer.js
  ┣ libs
  ┃ ┗ api.js
@@ -205,6 +183,10 @@ src
 
 ```sh
 git clone https://github.com/mnxmnz/Netflix-Clone.git
+```
+
+```sh
+cd Netflix-Clone
 ```
 
 #### [3] Install Packages
