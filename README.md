@@ -200,3 +200,8 @@ yarn
 ```sh
 yarn start
 ```
+
+<br />
+
+#### 🔗 [SOPT Site](http://sopt.org/wp/)
+#### 🔗 [SOPT Instagram](https://www.instagram.com/sopt_official/)
